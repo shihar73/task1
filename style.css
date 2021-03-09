@@ -1,0 +1,69 @@
+/* header */
+.header {
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  z-index: 10;
+}
+
+/* whole */
+.whole {
+  margin-top: 24px;
+  margin-left: 3rem;
+}
+
+/* Search for your favorite groups in ATG */
+.search {
+  margin-top: 12px;
+  margin-left: 6rem;
+}
+
+/* Create account. It’s free! */
+.create-ac {
+  margin-top: 19px;
+  margin-right: 3rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: right;
+  color: #2e2e2e;
+}
+.section1{
+    padding-top: 70px;
+}
+.section1-div {
+  padding-top: 0px;
+  height: 500px;
+  overflow: hidden;
+  background: url(./images/index.jpeg) no-repeat center;
+  background-size: cover;
+}
+.s1-condent {
+  padding-top: 20rem;
+  color: azure;
+}
+.s1-condent-span {
+  font-weight: bolder;
+}
+.s1-condent,
+p {
+}
+
+@media (max-width: 850px) {
+  .header {
+    display: none;
+  }
+  .section1{
+    padding-top: 0px;
+}
+  .s1-condent-span {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  .s1-condent,
+  p {
+      font-size: 15px;
+  }
+}
