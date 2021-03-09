@@ -30,8 +30,8 @@
   text-align: right;
   color: #2e2e2e;
 }
-.section1{
-    padding-top: 70px;
+.section1 {
+  padding-top: 70px;
 }
 .section1-div {
   padding-top: 0px;
@@ -50,20 +50,47 @@
 .s1-condent,
 p {
 }
+.s1-join-btn{
+  display: none;
+}
+.s2-part1{
+  display: inline;
+}
+.s2-part2{
+  display: none;
+}
 
 @media (max-width: 850px) {
   .header {
     display: none;
   }
-  .section1{
+  .section1-div {
+    height: 330px;
+  }
+  .section1 {
     padding-top: 0px;
-}
+  }
+  .s1-condent {
+    padding-top: 14rem;
+  }
   .s1-condent-span {
     font-weight: bolder;
     font-size: 30px;
   }
   .s1-condent,
   p {
-      font-size: 15px;
+    font-size: 15px;
+  }
+  .s1-join-btn {
+    display: inline;
+    position: absolute;
+    left: 0pc;
+    top: 38px;
+  }
+  .s2-part1{
+    display: none;
+  }
+  .s2-part2{
+    display: inline;
   }
 }
