@@ -50,13 +50,13 @@
 .s1-condent,
 p {
 }
-.s1-join-btn{
+.s1-join-btn {
   display: none;
 }
-.s2-part1{
+.s2-part1 {
   display: inline;
 }
-.s2-part2{
+.s2-part2 {
   display: none;
 }
 
@@ -87,10 +87,29 @@ p {
     left: 0pc;
     top: 38px;
   }
-  .s2-part1{
+  .s2-part1 {
     display: none;
   }
-  .s2-part2{
+  .s2-part2 {
     display: inline;
+  }
+  .s3-div {
+    z-index: 10;
+    position: fixed;
+    border-radius: 50px;
+    padding: 13px;
+    height: 55px;
+    width: 55px;
+    left: 288px;
+    bottom: 0pc;
+    margin-bottom: 15px;
+    background: linear-gradient(180deg, #ff5c5c 0%, #f0568a 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
+  }
+  .s3-div-svg {
+    width: 25px;
+    height: 25px;
+    top: 13px;
+    position: absolute;
   }
 }
